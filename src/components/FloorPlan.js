@@ -1,5 +1,7 @@
+import Kitchen from "./Kitchen";
+
 function FloorPlan() {
-  return "hello";
+  return <Kitchen />;
 }
 
 export default FloorPlan;
