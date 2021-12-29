@@ -7,9 +7,9 @@ import Bathroom from "../Bathroom";
 function FloorPlan() {
   return (
     <div className="grid-wrapper">
-      <Kitchen />
-      <LivingRoom />
       <Bedroom bedNum={1} />
+      <LivingRoom />
+      <Kitchen />
       <Bedroom bedNum={2} />
       <Bedroom bedNum={3} />
       <Bathroom size={"Half"} />
