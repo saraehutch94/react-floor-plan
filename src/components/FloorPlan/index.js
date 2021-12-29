@@ -1,3 +1,4 @@
+import "./FloorPlan.css";
 import Kitchen from "../Kitchen";
 import LivingRoom from "../LivingRoom";
 import Bedroom from "../Bedroom";
@@ -5,7 +6,7 @@ import Bathroom from "../Bathroom";
 
 function FloorPlan() {
   return (
-    <div>
+    <div className="floorplan-wrapper">
       <Kitchen />
       <LivingRoom />
       <Bedroom bedNum={1} />
