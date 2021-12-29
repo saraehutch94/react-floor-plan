@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./App.css";
 import FloorPlan from "./components/FloorPlan";
 
 export default function App() {

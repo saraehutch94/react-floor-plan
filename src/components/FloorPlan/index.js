@@ -1,7 +1,7 @@
-import Kitchen from "./Kitchen";
-import LivingRoom from "./LivingRoom";
-import Bedroom from "./Bedroom";
-import Bathroom from "./Bathroom";
+import Kitchen from "../Kitchen";
+import LivingRoom from "../LivingRoom";
+import Bedroom from "../Bedroom";
+import Bathroom from "../Bathroom";
 
 function FloorPlan() {
   return (

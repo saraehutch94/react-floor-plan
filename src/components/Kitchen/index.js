@@ -1,5 +1,5 @@
-import Oven from "./Oven";
-import Sink from "./Sink";
+import Oven from "../Oven";
+import Sink from "../Sink";
 
 function Kitchen() {
   return (
