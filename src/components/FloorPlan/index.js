@@ -6,7 +6,7 @@ import Bathroom from "../Bathroom";
 
 function FloorPlan() {
   return (
-    <div className="floorplan-wrapper">
+    <div>
       <Kitchen />
       <LivingRoom />
       <Bedroom bedNum={1} />
