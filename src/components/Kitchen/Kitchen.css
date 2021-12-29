@@ -1,16 +1,13 @@
 .kitchen-div {
+  background-color: green;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: green;
-}
-
-.kitchen-parent {
   position: relative;
 }
 
-.child-flex {
+.appliances {
+  display: flex;
   position: absolute;
   top: 0;
-  display: flex;
 }
