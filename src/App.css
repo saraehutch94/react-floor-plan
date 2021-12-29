@@ -1,3 +1,7 @@
+body {
+  background-color: grey;
+}
+
 .App {
   display: flex;
   height: 100vh;
