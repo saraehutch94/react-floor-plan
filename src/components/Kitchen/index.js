@@ -4,10 +4,12 @@ import Sink from "../Sink";
 
 function Kitchen() {
   return (
-    <div className="kitchen-div">
+    <div className="kitchen-div kitchen-parent">
+      <div className="child-flex">
+        <Oven />
+        <Sink />
+      </div>
       <div>Kitchen</div>
-      <Oven />
-      <Sink />
     </div>
   );
 }

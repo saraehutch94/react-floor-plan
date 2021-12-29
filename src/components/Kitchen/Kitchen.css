@@ -4,3 +4,13 @@
   align-items: center;
   background-color: green;
 }
+
+.kitchen-parent {
+  position: relative;
+}
+
+.child-flex {
+  position: absolute;
+  top: 0;
+  display: flex;
+}
