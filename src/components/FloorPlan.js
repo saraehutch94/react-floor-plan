@@ -8,6 +8,8 @@ function FloorPlan() {
       <Kitchen />
       <LivingRoom />
       <Bedroom bedNum={1} />
+      <Bedroom bedNum={2} />
+      <Bedroom bedNum={3} />
     </div>
   );
 }
