@@ -1,5 +1,5 @@
 function Bedroom(props) {
-  return <div>Bedroom</div>;
+  return <div>Bedroom {props.bedNum}</div>;
 }
 
 export default Bedroom;
