@@ -1,5 +1,7 @@
+import "./LivingRoom.css";
+
 function LivingRoom() {
-  return <div>Living Room</div>;
+  return <div className="livingroom-div">Living Room</div>;
 }
 
 export default LivingRoom;

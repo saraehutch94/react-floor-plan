@@ -1,9 +1,10 @@
+import "./Kitchen.css";
 import Oven from "../Oven";
 import Sink from "../Sink";
 
 function Kitchen() {
   return (
-    <div>
+    <div className="kitchen-div">
       <div>Kitchen</div>
       <Oven />
       <Sink />
