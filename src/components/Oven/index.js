@@ -1,5 +1,7 @@
+import "./Oven.css";
+
 function Oven() {
-  return <div>Oven</div>;
+  return <div className="oven-div">Oven</div>;
 }
 
 export default Oven;
